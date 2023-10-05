@@ -1,0 +1,60 @@
+.titre {
+display: flex;
+flex-direction: column;
+width: 50%;
+margin: auto;
+}
+h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+img {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #eee;
+}
+.burger {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+nav {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0;
+    min-height: 50px;
+    background: #eee;
+    overflow: hidden;
+}
+.burger span,
+.burger span:before,
+.burger span:after {
+    position: absolute;
+    content: '';
+    top: 22px;
+    width: 40px;
+    height: 4px;
+    background: #333;
+    border-radius: 0.2em;
+
+}
+.burger span:before {
+    top: -8px;
+
+}
+.burger span:after {
+    top: 8px;
+}
